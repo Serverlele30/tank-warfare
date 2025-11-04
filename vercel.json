@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     { "src": "server.js", "use": "@vercel/node" },
-    { "src": "www/**/*", "use": "@vercel/static" }
+    { "src": "/www/", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/", "dest": "/www/index.html" }
