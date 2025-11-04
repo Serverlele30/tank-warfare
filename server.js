@@ -13,7 +13,7 @@ const io = socketIO(server, {
 });
 
 // Serve static files
-app.use(express.static(path.join(__dirname)));
+app.use(express.static(path.join(__dirname, 'www')));
 
 // Game Constants
 const WORLD_WIDTH = 2500;
